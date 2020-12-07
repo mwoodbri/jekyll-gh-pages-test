@@ -14,8 +14,7 @@ jobs:
 #         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 #         BRANCH: gh-pages
 #         FOLDER: _site
-#     - uses: peaceiris/actions-gh-pages@v3
-#       with:
-#         github_token: ${{ secrets.GITHUB_TOKEN }}
-#         publish_dir: _site
-        
+      - uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: _site
