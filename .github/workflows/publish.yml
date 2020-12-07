@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: docker://ghcr.io/mwoodbri/jekyll-gh-pages-docker
+      - uses: docker://ghcr.io/mwoodbri/jekyll-gh-pages-docker:main
       - run: ls -a
 #     - uses: JamesIves/github-pages-deploy-action@3
 #       with:
